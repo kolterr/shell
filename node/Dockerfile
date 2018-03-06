@@ -1,4 +1,5 @@
 FROM node:8.4
+MAINTAINER "kolter" <15228351298@163.com>
 COPY . /app
 WORKDIR /app
 RUN npm install --registry=https://registry.npm.taobao.org \
