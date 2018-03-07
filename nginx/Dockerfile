@@ -3,6 +3,6 @@ MAINTAINER 15228351298@163.COM
 COPY /html /usr/share/nginx/html
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
-#还可以挂载目录 
+#还可以通过卷挂载 
 #docker run container -v /etc/nginx/nginx.conf:etc/nginx/nginx.conf:ro 
 
