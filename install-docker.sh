@@ -5,7 +5,7 @@
 apt-get update 
 
 #安装工具
-apt-get -y install apt-transport-https ca-certificates curl software-properties-commonapt-get -y install apt-transport-https ca-certificates curl software-properties-common
+apt-get -y install apt-transport-https ca-certificates curl software-properties-common
 
 #安装 GPG证书
 curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg |  apt-key add -
