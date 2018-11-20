@@ -1,0 +1,9 @@
+---
+- hosts: server
+  sudo: yes
+  tasks:
+  - name: copy docker-install shell
+    copy: src=./install-docker.sh dest=/home/root/
+    tags: configfile
+  - name: execution shell
+    shell: sh /home/root/install-docker.sh
